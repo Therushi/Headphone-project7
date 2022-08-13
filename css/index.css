@@ -112,3 +112,57 @@ nav,
   display: flex;
   justify-content: space-between;
 }
+.sub-headline{
+  gap: 10px;
+}
+
+@media screen and (max-width:678px) {
+  body{
+    padding: 10px;
+  }
+  nav img{
+    width: 280px;
+  }
+  .nav-items{
+    display: none;
+  }
+  .intro-section{
+    flex-direction: column-reverse;
+  }
+  .headphone-div img{
+    width: 350px;
+  }
+  .left-section{
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .left-section h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .left-section h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .left-section h3 img{
+    width: 30px;
+  }
+  .sub-headline{
+    gap: 10px;
+  }
+  .sub-headlines h5{
+    font-size: 16px;
+  }
+  .text{
+    width: 300px;
+  }
+  .action-btn{
+    margin-bottom: 10px;
+  }
+  .right-section{
+    margin-top: 30px;
+  }
+}
